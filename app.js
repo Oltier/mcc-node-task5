@@ -36,8 +36,8 @@ app.use((err, req, res, next) => {
   res.render('error');
 });
 
-const server = app.listen(3000, 'localhost', function () {
-    console.log('Server started.');
-});
+// const server = app.listen(3000, 'localhost', function () {
+//     console.log('Server started.');
+// });
 
 module.exports = app;
